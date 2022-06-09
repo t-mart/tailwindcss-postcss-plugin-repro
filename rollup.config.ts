@@ -10,7 +10,7 @@ export default async () =>
       dir: "dist"
     },
     plugins: [
-      typescript(),
+      typescript({sourceMap: false}),
       postcss({
         plugins: [tailwindcss()],
       }),

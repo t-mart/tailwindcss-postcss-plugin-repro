@@ -1,3 +1,3 @@
 import "./main.css";
 
-console.log("hello world");
+console.log("container"); // silence warn about no utility classes
